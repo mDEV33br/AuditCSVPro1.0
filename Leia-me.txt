@@ -1,0 +1,74 @@
+======================================================================
+                 MANUAL DO USUARIO - AUDIT CSV PRO 1.0
+======================================================================
+
+O Audit CSV Pro 1.0 e uma ferramenta profissional para identificar 
+falhas em bancos de dados CSV, gerando diagnosticos automaticos e 
+documentacao de auditoria.
+
+----------------------------------------------------------------------
+1. COMO USAR O PROGRAMA (PASSO A PASSO)
+----------------------------------------------------------------------
+
+PASSO 01: Preencha seus dados
+   - Nome Completo
+   - Telefone (o campo formatará sozinho: (99) 99999-9999)
+   - E-mail Corporativo
+   - Nome da Empresa (Opcional)
+
+PASSO 02: Selecione o arquivo
+   - Clique em "Selecionar CSV".
+   - Escolha o arquivo no seu computador.
+   - O nome do arquivo aparecerá na tela para confirmação.
+
+PASSO 03: Gerar Auditoria
+   - Clique no botao "GERAR RELATORIO COMPLETO".
+   - Aguarde a mensagem de confirmação de sucesso.
+
+----------------------------------------------------------------------
+2. ONDE ESTÃO OS RESULTADOS?
+----------------------------------------------------------------------
+
+O programa cria uma pasta na sua ÁREA DE TRABALHO (DESKTOP) chamada:
+> Relatorios_Auditoria_Pro
+
+Dentro dela, os arquivos são organizados por data e hora:
+
+[1] Relatorio_Auditoria_Completo.pdf
+    -> O documento oficial com o certificado e a tabela de erros.
+
+[2] mapeamento_erros.xlsx
+    -> Planilha Excel com a lista de erros para facilitar a correcao.
+
+[3] BASE_ORIGINAL.csv
+    -> Uma copia de seguranca do arquivo original enviado.
+
+----------------------------------------------------------------------
+3. O QUE O PROGRAMA CONSIDERA UM "ERRO"?
+----------------------------------------------------------------------
+
+O sistema faz uma busca profunda e classifica 3 tipos de falhas:
+
+* CAMPO VAZIO: Celulas totalmente sem informacao.
+* ESPACOS EM BRANCO: Celulas que parecem vazias mas possuem espacos.
+* TEXTOS INVALIDOS: Uso de termos como "NULL", "NaN" ou "Undefined".
+
+----------------------------------------------------------------------
+4. DICAS PARA EVITAR ERROS
+----------------------------------------------------------------------
+
+- FECHE O ARQUIVO: O CSV não pode estar aberto no Excel durante a 
+  análise, senão o Windows bloqueia o acesso do programa.
+- FORMATOS: O programa aceita CSVs separados por VIRGULA (,) ou 
+  PONTO-E-VIRGULA (;).
+
+----------------------------------------------------------------------
+5. SUPORTE TECNICO
+----------------------------------------------------------------------
+
+Desenvolvedor: Moises Costa
+Telefone/WhatsApp: (31) 99954-4458
+Email: moisescarvalho33@gmail.com
+======================================================================
+            Audit CSV Pro 1.0 - Transformando dados em confiança.
+======================================================================
